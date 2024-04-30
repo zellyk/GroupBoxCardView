@@ -11,6 +11,8 @@
 		9D4E263F2BE17B51003EF635 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4E263E2BE17B51003EF635 /* ContentView.swift */; };
 		9D4E26412BE17B53003EF635 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D4E26402BE17B53003EF635 /* Assets.xcassets */; };
 		9D4E26442BE17B53003EF635 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D4E26432BE17B53003EF635 /* Preview Assets.xcassets */; };
+		9D4E264D2BE188E6003EF635 /* Dark.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D4E264C2BE188E6003EF635 /* Dark.png */; };
+		9D4E264F2BE188EB003EF635 /* Light.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D4E264E2BE188EB003EF635 /* Light.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,9 @@
 		9D4E263E2BE17B51003EF635 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9D4E26402BE17B53003EF635 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9D4E26432BE17B53003EF635 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9D4E264A2BE187DF003EF635 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		9D4E264C2BE188E6003EF635 /* Dark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Dark.png; sourceTree = "<group>"; };
+		9D4E264E2BE188EB003EF635 /* Light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Light.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +40,8 @@
 		9D4E26302BE17B50003EF635 = {
 			isa = PBXGroup;
 			children = (
+				9D4E264B2BE188C7003EF635 /* Screenshot */,
+				9D4E264A2BE187DF003EF635 /* README.md */,
 				9D4E263B2BE17B51003EF635 /* CardViewGroupBox */,
 				9D4E263A2BE17B51003EF635 /* Products */,
 			);
@@ -65,6 +72,15 @@
 				9D4E26432BE17B53003EF635 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9D4E264B2BE188C7003EF635 /* Screenshot */ = {
+			isa = PBXGroup;
+			children = (
+				9D4E264C2BE188E6003EF635 /* Dark.png */,
+				9D4E264E2BE188EB003EF635 /* Light.png */,
+			);
+			path = Screenshot;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,7 +141,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D4E264D2BE188E6003EF635 /* Dark.png in Resources */,
 				9D4E26442BE17B53003EF635 /* Preview Assets.xcassets in Resources */,
+				9D4E264F2BE188EB003EF635 /* Light.png in Resources */,
 				9D4E26412BE17B53003EF635 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
